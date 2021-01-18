@@ -41,47 +41,16 @@
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ribbon1))
         Dim SplitButton1 As Microsoft.Office.Tools.Ribbon.RibbonSplitButton
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Ribbon1))
         Dim SplitButton9 As Microsoft.Office.Tools.Ribbon.RibbonSplitButton
         Dim SplitButton3 As Microsoft.Office.Tools.Ribbon.RibbonSplitButton
         Dim SplitButton10 As Microsoft.Office.Tools.Ribbon.RibbonSplitButton
         Dim SplitButton7 As Microsoft.Office.Tools.Ribbon.RibbonSplitButton
-        Me.Tab1 = Me.Factory.CreateRibbonTab
-        Me.Tab2 = Me.Factory.CreateRibbonTab
-        Me.Group2 = Me.Factory.CreateRibbonGroup
-        Me.Separator1 = Me.Factory.CreateRibbonSeparator
-        Me.Group8 = Me.Factory.CreateRibbonGroup
-        Me.Group1 = Me.Factory.CreateRibbonGroup
-        Me.Group3 = Me.Factory.CreateRibbonGroup
-        Me.Separator2 = Me.Factory.CreateRibbonSeparator
-        Me.Group4 = Me.Factory.CreateRibbonGroup
-        Me.Group5 = Me.Factory.CreateRibbonGroup
-        Me.Separator3 = Me.Factory.CreateRibbonSeparator
-        Me.Group6 = Me.Factory.CreateRibbonGroup
-        Me.Group7 = Me.Factory.CreateRibbonGroup
-        Me.Tab3 = Me.Factory.CreateRibbonTab
-        Me.Button2 = Me.Factory.CreateRibbonButton
-        Me.Button1 = Me.Factory.CreateRibbonButton
         Me.Button7 = Me.Factory.CreateRibbonButton
         Me.Button8 = Me.Factory.CreateRibbonButton
         Me.Button9 = Me.Factory.CreateRibbonButton
         Me.Button10 = Me.Factory.CreateRibbonButton
-        Me.SplitButton12 = Me.Factory.CreateRibbonSplitButton
-        Me.Button46 = Me.Factory.CreateRibbonButton
-        Me.SplitButton14 = Me.Factory.CreateRibbonSplitButton
-        Me.Button47 = Me.Factory.CreateRibbonButton
-        Me.SplitButton6 = Me.Factory.CreateRibbonSplitButton
-        Me.Button43 = Me.Factory.CreateRibbonButton
-        Me.SplitButton4 = Me.Factory.CreateRibbonSplitButton
-        Me.Button13 = Me.Factory.CreateRibbonButton
-        Me.SplitButton13 = Me.Factory.CreateRibbonSplitButton
-        Me.Button45 = Me.Factory.CreateRibbonButton
-        Me.Button3 = Me.Factory.CreateRibbonButton
-        Me.Button16 = Me.Factory.CreateRibbonButton
-        Me.Button19 = Me.Factory.CreateRibbonButton
-        Me.Button22 = Me.Factory.CreateRibbonButton
-        Me.Button23 = Me.Factory.CreateRibbonButton
         Me.Button32 = Me.Factory.CreateRibbonButton
         Me.Button33 = Me.Factory.CreateRibbonButton
         Me.Button34 = Me.Factory.CreateRibbonButton
@@ -96,19 +65,48 @@
         Me.Button37 = Me.Factory.CreateRibbonButton
         Me.Button38 = Me.Factory.CreateRibbonButton
         Me.Button39 = Me.Factory.CreateRibbonButton
+        Me.Button24 = Me.Factory.CreateRibbonButton
+        Me.Button25 = Me.Factory.CreateRibbonButton
+        Me.Button26 = Me.Factory.CreateRibbonButton
+        Me.Button27 = Me.Factory.CreateRibbonButton
+        Me.Tab1 = Me.Factory.CreateRibbonTab
+        Me.Tab2 = Me.Factory.CreateRibbonTab
+        Me.Group2 = Me.Factory.CreateRibbonGroup
+        Me.Button2 = Me.Factory.CreateRibbonButton
+        Me.Separator1 = Me.Factory.CreateRibbonSeparator
+        Me.Button1 = Me.Factory.CreateRibbonButton
+        Me.Group8 = Me.Factory.CreateRibbonGroup
+        Me.Group1 = Me.Factory.CreateRibbonGroup
+        Me.SplitButton12 = Me.Factory.CreateRibbonSplitButton
+        Me.Button46 = Me.Factory.CreateRibbonButton
+        Me.SplitButton14 = Me.Factory.CreateRibbonSplitButton
+        Me.Button47 = Me.Factory.CreateRibbonButton
+        Me.SplitButton6 = Me.Factory.CreateRibbonSplitButton
+        Me.Button43 = Me.Factory.CreateRibbonButton
+        Me.SplitButton4 = Me.Factory.CreateRibbonSplitButton
+        Me.Button13 = Me.Factory.CreateRibbonButton
+        Me.SplitButton13 = Me.Factory.CreateRibbonSplitButton
+        Me.Button45 = Me.Factory.CreateRibbonButton
+        Me.Button3 = Me.Factory.CreateRibbonButton
+        Me.Button16 = Me.Factory.CreateRibbonButton
+        Me.Button19 = Me.Factory.CreateRibbonButton
+        Me.Group3 = Me.Factory.CreateRibbonGroup
+        Me.Button22 = Me.Factory.CreateRibbonButton
+        Me.Button23 = Me.Factory.CreateRibbonButton
+        Me.Separator2 = Me.Factory.CreateRibbonSeparator
+        Me.Group4 = Me.Factory.CreateRibbonGroup
         Me.Button5 = Me.Factory.CreateRibbonButton
         Me.Button4 = Me.Factory.CreateRibbonButton
         Me.SplitButton8 = Me.Factory.CreateRibbonSplitButton
         Me.Button12 = Me.Factory.CreateRibbonButton
         Me.Button11 = Me.Factory.CreateRibbonButton
-        Me.Button24 = Me.Factory.CreateRibbonButton
-        Me.Button25 = Me.Factory.CreateRibbonButton
-        Me.Button26 = Me.Factory.CreateRibbonButton
-        Me.Button27 = Me.Factory.CreateRibbonButton
+        Me.Group5 = Me.Factory.CreateRibbonGroup
         Me.Button15 = Me.Factory.CreateRibbonButton
         Me.Button14 = Me.Factory.CreateRibbonButton
+        Me.Separator3 = Me.Factory.CreateRibbonSeparator
         Me.Button17 = Me.Factory.CreateRibbonButton
         Me.Button18 = Me.Factory.CreateRibbonButton
+        Me.Group6 = Me.Factory.CreateRibbonGroup
         Me.SplitButton21 = Me.Factory.CreateRibbonSplitButton
         Me.Button70 = Me.Factory.CreateRibbonButton
         Me.Button71 = Me.Factory.CreateRibbonButton
@@ -117,6 +115,7 @@
         Me.Button73 = Me.Factory.CreateRibbonButton
         Me.Button74 = Me.Factory.CreateRibbonButton
         Me.Button75 = Me.Factory.CreateRibbonButton
+        Me.Group7 = Me.Factory.CreateRibbonGroup
         Me.itemDescription = Me.Factory.CreateRibbonButton
         Me.connectLine = Me.Factory.CreateRibbonButton
         Me.quote = Me.Factory.CreateRibbonButton
@@ -140,136 +139,7 @@
         Me.Group5.SuspendLayout()
         Me.Group6.SuspendLayout()
         Me.Group7.SuspendLayout()
-        Me.Tab3.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Tab1
-        '
-        Me.Tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office
-        Me.Tab1.Label = "TabAddIns"
-        Me.Tab1.Name = "Tab1"
-        '
-        'Tab2
-        '
-        Me.Tab2.Groups.Add(Me.Group2)
-        Me.Tab2.Groups.Add(Me.Group8)
-        Me.Tab2.Groups.Add(Me.Group1)
-        Me.Tab2.Groups.Add(Me.Group3)
-        Me.Tab2.Groups.Add(Me.Group4)
-        Me.Tab2.Groups.Add(Me.Group5)
-        Me.Tab2.Groups.Add(Me.Group6)
-        Me.Tab2.Groups.Add(Me.Group7)
-        Me.Tab2.Label = "标准文档编辑"
-        Me.Tab2.Name = "Tab2"
-        '
-        'Group2
-        '
-        Me.Group2.Items.Add(Me.Button2)
-        Me.Group2.Items.Add(Me.Separator1)
-        Me.Group2.Items.Add(Me.Button1)
-        Me.Group2.Label = "联机"
-        Me.Group2.Name = "Group2"
-        '
-        'Separator1
-        '
-        Me.Separator1.Name = "Separator1"
-        '
-        'Group8
-        '
-        Me.Group8.Items.Add(SplitButton1)
-        Me.Group8.Label = "新建"
-        Me.Group8.Name = "Group8"
-        '
-        'Group1
-        '
-        Me.Group1.Items.Add(Me.SplitButton12)
-        Me.Group1.Items.Add(Me.SplitButton14)
-        Me.Group1.Items.Add(Me.SplitButton6)
-        Me.Group1.Items.Add(Me.SplitButton4)
-        Me.Group1.Items.Add(Me.SplitButton13)
-        Me.Group1.Label = "结构要素"
-        Me.Group1.Name = "Group1"
-        '
-        'Group3
-        '
-        Me.Group3.Items.Add(Me.Button22)
-        Me.Group3.Items.Add(Me.Button23)
-        Me.Group3.Items.Add(Me.Separator2)
-        Me.Group3.Items.Add(SplitButton9)
-        Me.Group3.Items.Add(SplitButton3)
-        Me.Group3.Items.Add(SplitButton10)
-        Me.Group3.Label = "层次样式"
-        Me.Group3.Name = "Group3"
-        '
-        'Separator2
-        '
-        Me.Separator2.Name = "Separator2"
-        '
-        'Group4
-        '
-        Me.Group4.Items.Add(Me.Button5)
-        Me.Group4.Items.Add(Me.Button4)
-        Me.Group4.Items.Add(Me.SplitButton8)
-        Me.Group4.Items.Add(Me.Button12)
-        Me.Group4.Items.Add(Me.Button11)
-        Me.Group4.Label = "标注样式"
-        Me.Group4.Name = "Group4"
-        '
-        'Group5
-        '
-        Me.Group5.Items.Add(SplitButton7)
-        Me.Group5.Items.Add(Me.Button15)
-        Me.Group5.Items.Add(Me.Button14)
-        Me.Group5.Items.Add(Me.Separator3)
-        Me.Group5.Items.Add(Me.Button17)
-        Me.Group5.Items.Add(Me.Button18)
-        Me.Group5.Label = "图表"
-        Me.Group5.Name = "Group5"
-        '
-        'Separator3
-        '
-        Me.Separator3.Name = "Separator3"
-        '
-        'Group6
-        '
-        Me.Group6.Items.Add(Me.SplitButton21)
-        Me.Group6.Items.Add(Me.SplitButton22)
-        Me.Group6.Label = "公式|单位|符号"
-        Me.Group6.Name = "Group6"
-        '
-        'Group7
-        '
-        Me.Group7.Items.Add(Me.itemDescription)
-        Me.Group7.Items.Add(Me.connectLine)
-        Me.Group7.Items.Add(Me.quote)
-        Me.Group7.Items.Add(Me.Button6)
-        Me.Group7.Items.Add(Me.Button42)
-        Me.Group7.Items.Add(Me.Button31)
-        Me.Group7.Items.Add(Me.Button40)
-        Me.Group7.Items.Add(Me.Button41)
-        Me.Group7.Label = "其他"
-        Me.Group7.Name = "Group7"
-        '
-        'Tab3
-        '
-        Me.Tab3.Label = "Tab3"
-        Me.Tab3.Name = "Tab3"
-        '
-        'Button2
-        '
-        Me.Button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Label = "注册"
-        Me.Button2.Name = "Button2"
-        Me.Button2.ShowImage = True
-        '
-        'Button1
-        '
-        Me.Button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
-        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Label = "标准更新"
-        Me.Button1.Name = "Button1"
-        Me.Button1.ShowImage = True
         '
         'SplitButton1
         '
@@ -307,107 +177,6 @@
         Me.Button10.Label = "地方计量检定规程"
         Me.Button10.Name = "Button10"
         Me.Button10.ShowImage = True
-        '
-        'SplitButton12
-        '
-        Me.SplitButton12.Image = CType(resources.GetObject("SplitButton12.Image"), System.Drawing.Image)
-        Me.SplitButton12.Items.Add(Me.Button46)
-        Me.SplitButton12.Label = "扉页"
-        Me.SplitButton12.Name = "SplitButton12"
-        '
-        'Button46
-        '
-        Me.Button46.Label = "删除目次"
-        Me.Button46.Name = "Button46"
-        Me.Button46.ShowImage = True
-        '
-        'SplitButton14
-        '
-        Me.SplitButton14.Image = CType(resources.GetObject("SplitButton14.Image"), System.Drawing.Image)
-        Me.SplitButton14.Items.Add(Me.Button47)
-        Me.SplitButton14.Label = "前言"
-        Me.SplitButton14.Name = "SplitButton14"
-        '
-        'Button47
-        '
-        Me.Button47.Label = "删除目次"
-        Me.Button47.Name = "Button47"
-        Me.Button47.ShowImage = True
-        '
-        'SplitButton6
-        '
-        Me.SplitButton6.Image = CType(resources.GetObject("SplitButton6.Image"), System.Drawing.Image)
-        Me.SplitButton6.Items.Add(Me.Button43)
-        Me.SplitButton6.Label = "目录"
-        Me.SplitButton6.Name = "SplitButton6"
-        '
-        'Button43
-        '
-        Me.Button43.Label = "删除目次"
-        Me.Button43.Name = "Button43"
-        Me.Button43.ShowImage = True
-        '
-        'SplitButton4
-        '
-        Me.SplitButton4.Image = CType(resources.GetObject("SplitButton4.Image"), System.Drawing.Image)
-        Me.SplitButton4.Items.Add(Me.Button13)
-        Me.SplitButton4.Label = "引言"
-        Me.SplitButton4.Name = "SplitButton4"
-        '
-        'Button13
-        '
-        Me.Button13.Label = "删除引言"
-        Me.Button13.Name = "Button13"
-        Me.Button13.ShowImage = True
-        '
-        'SplitButton13
-        '
-        Me.SplitButton13.Image = CType(resources.GetObject("SplitButton13.Image"), System.Drawing.Image)
-        Me.SplitButton13.Items.Add(Me.Button45)
-        Me.SplitButton13.Items.Add(Me.Button3)
-        Me.SplitButton13.Items.Add(Me.Button16)
-        Me.SplitButton13.Items.Add(Me.Button19)
-        Me.SplitButton13.Label = "附录"
-        Me.SplitButton13.Name = "SplitButton13"
-        '
-        'Button45
-        '
-        Me.Button45.Label = "附录"
-        Me.Button45.Name = "Button45"
-        Me.Button45.ShowImage = True
-        '
-        'Button3
-        '
-        Me.Button3.Label = "附录1"
-        Me.Button3.Name = "Button3"
-        Me.Button3.ShowImage = True
-        '
-        'Button16
-        '
-        Me.Button16.Label = "附录2"
-        Me.Button16.Name = "Button16"
-        Me.Button16.ShowImage = True
-        '
-        'Button19
-        '
-        Me.Button19.Label = "附录3"
-        Me.Button19.Name = "Button19"
-        Me.Button19.ShowImage = True
-        '
-        'Button22
-        '
-        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
-        Me.Button22.Label = "章"
-        Me.Button22.Name = "Button22"
-        Me.Button22.ShowImage = True
-        '
-        'Button23
-        '
-        Me.Button23.Image = CType(resources.GetObject("Button23.Image"), System.Drawing.Image)
-        Me.Button23.Label = "段"
-        Me.Button23.Name = "Button23"
-        Me.Button23.ShowImage = True
-        Me.Button23.SuperTip = "段"
         '
         'SplitButton9
         '
@@ -548,40 +317,6 @@
         Me.Button39.Name = "Button39"
         Me.Button39.ShowImage = True
         '
-        'Button5
-        '
-        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
-        Me.Button5.Label = "注"
-        Me.Button5.Name = "Button5"
-        Me.Button5.ShowImage = True
-        '
-        'Button4
-        '
-        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
-        Me.Button4.Label = "注X"
-        Me.Button4.Name = "Button4"
-        Me.Button4.ShowImage = True
-        '
-        'SplitButton8
-        '
-        Me.SplitButton8.Image = CType(resources.GetObject("SplitButton8.Image"), System.Drawing.Image)
-        Me.SplitButton8.Label = "脚注"
-        Me.SplitButton8.Name = "SplitButton8"
-        '
-        'Button12
-        '
-        Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Label = "示例"
-        Me.Button12.Name = "Button12"
-        Me.Button12.ShowImage = True
-        '
-        'Button11
-        '
-        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
-        Me.Button11.Label = "示例X"
-        Me.Button11.Name = "Button11"
-        Me.Button11.ShowImage = True
-        '
         'SplitButton7
         '
         SplitButton7.Checked = True
@@ -623,6 +358,240 @@
         Me.Button27.Name = "Button27"
         Me.Button27.ShowImage = True
         '
+        'Tab1
+        '
+        Me.Tab1.ControlId.ControlIdType = Microsoft.Office.Tools.Ribbon.RibbonControlIdType.Office
+        Me.Tab1.Label = "TabAddIns"
+        Me.Tab1.Name = "Tab1"
+        '
+        'Tab2
+        '
+        Me.Tab2.Groups.Add(Me.Group2)
+        Me.Tab2.Groups.Add(Me.Group8)
+        Me.Tab2.Groups.Add(Me.Group1)
+        Me.Tab2.Groups.Add(Me.Group3)
+        Me.Tab2.Groups.Add(Me.Group4)
+        Me.Tab2.Groups.Add(Me.Group5)
+        Me.Tab2.Groups.Add(Me.Group6)
+        Me.Tab2.Groups.Add(Me.Group7)
+        Me.Tab2.Label = "标准文档编辑"
+        Me.Tab2.Name = "Tab2"
+        '
+        'Group2
+        '
+        Me.Group2.Items.Add(Me.Button2)
+        Me.Group2.Items.Add(Me.Separator1)
+        Me.Group2.Items.Add(Me.Button1)
+        Me.Group2.Label = "联机"
+        Me.Group2.Name = "Group2"
+        '
+        'Button2
+        '
+        Me.Button2.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
+        Me.Button2.Label = "注册"
+        Me.Button2.Name = "Button2"
+        Me.Button2.ShowImage = True
+        '
+        'Separator1
+        '
+        Me.Separator1.Name = "Separator1"
+        '
+        'Button1
+        '
+        Me.Button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge
+        Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
+        Me.Button1.Label = "标准更新"
+        Me.Button1.Name = "Button1"
+        Me.Button1.ShowImage = True
+        '
+        'Group8
+        '
+        Me.Group8.Items.Add(SplitButton1)
+        Me.Group8.Label = "新建"
+        Me.Group8.Name = "Group8"
+        '
+        'Group1
+        '
+        Me.Group1.Items.Add(Me.SplitButton12)
+        Me.Group1.Items.Add(Me.SplitButton14)
+        Me.Group1.Items.Add(Me.SplitButton6)
+        Me.Group1.Items.Add(Me.SplitButton4)
+        Me.Group1.Items.Add(Me.SplitButton13)
+        Me.Group1.Label = "结构要素"
+        Me.Group1.Name = "Group1"
+        '
+        'SplitButton12
+        '
+        Me.SplitButton12.Image = CType(resources.GetObject("SplitButton12.Image"), System.Drawing.Image)
+        Me.SplitButton12.Items.Add(Me.Button46)
+        Me.SplitButton12.Label = "扉页"
+        Me.SplitButton12.Name = "SplitButton12"
+        '
+        'Button46
+        '
+        Me.Button46.Label = "删除目次"
+        Me.Button46.Name = "Button46"
+        Me.Button46.ShowImage = True
+        '
+        'SplitButton14
+        '
+        Me.SplitButton14.Image = CType(resources.GetObject("SplitButton14.Image"), System.Drawing.Image)
+        Me.SplitButton14.Items.Add(Me.Button47)
+        Me.SplitButton14.Label = "前言"
+        Me.SplitButton14.Name = "SplitButton14"
+        '
+        'Button47
+        '
+        Me.Button47.Label = "删除目次"
+        Me.Button47.Name = "Button47"
+        Me.Button47.ShowImage = True
+        '
+        'SplitButton6
+        '
+        Me.SplitButton6.Image = CType(resources.GetObject("SplitButton6.Image"), System.Drawing.Image)
+        Me.SplitButton6.Items.Add(Me.Button43)
+        Me.SplitButton6.Label = "目录"
+        Me.SplitButton6.Name = "SplitButton6"
+        '
+        'Button43
+        '
+        Me.Button43.Label = "删除目次"
+        Me.Button43.Name = "Button43"
+        Me.Button43.ShowImage = True
+        '
+        'SplitButton4
+        '
+        Me.SplitButton4.Image = CType(resources.GetObject("SplitButton4.Image"), System.Drawing.Image)
+        Me.SplitButton4.Items.Add(Me.Button13)
+        Me.SplitButton4.Label = "引言"
+        Me.SplitButton4.Name = "SplitButton4"
+        '
+        'Button13
+        '
+        Me.Button13.Label = "删除引言"
+        Me.Button13.Name = "Button13"
+        Me.Button13.ShowImage = True
+        '
+        'SplitButton13
+        '
+        Me.SplitButton13.Image = CType(resources.GetObject("SplitButton13.Image"), System.Drawing.Image)
+        Me.SplitButton13.Items.Add(Me.Button45)
+        Me.SplitButton13.Items.Add(Me.Button3)
+        Me.SplitButton13.Items.Add(Me.Button16)
+        Me.SplitButton13.Items.Add(Me.Button19)
+        Me.SplitButton13.Label = "附录"
+        Me.SplitButton13.Name = "SplitButton13"
+        '
+        'Button45
+        '
+        Me.Button45.Label = "附录"
+        Me.Button45.Name = "Button45"
+        Me.Button45.ShowImage = True
+        '
+        'Button3
+        '
+        Me.Button3.Label = "附录1"
+        Me.Button3.Name = "Button3"
+        Me.Button3.ShowImage = True
+        '
+        'Button16
+        '
+        Me.Button16.Label = "附录2"
+        Me.Button16.Name = "Button16"
+        Me.Button16.ShowImage = True
+        '
+        'Button19
+        '
+        Me.Button19.Label = "附录3"
+        Me.Button19.Name = "Button19"
+        Me.Button19.ShowImage = True
+        '
+        'Group3
+        '
+        Me.Group3.Items.Add(Me.Button22)
+        Me.Group3.Items.Add(Me.Button23)
+        Me.Group3.Items.Add(Me.Separator2)
+        Me.Group3.Items.Add(SplitButton9)
+        Me.Group3.Items.Add(SplitButton3)
+        Me.Group3.Items.Add(SplitButton10)
+        Me.Group3.Label = "层次样式"
+        Me.Group3.Name = "Group3"
+        '
+        'Button22
+        '
+        Me.Button22.Image = CType(resources.GetObject("Button22.Image"), System.Drawing.Image)
+        Me.Button22.Label = "章"
+        Me.Button22.Name = "Button22"
+        Me.Button22.ShowImage = True
+        '
+        'Button23
+        '
+        Me.Button23.Image = CType(resources.GetObject("Button23.Image"), System.Drawing.Image)
+        Me.Button23.Label = "段"
+        Me.Button23.Name = "Button23"
+        Me.Button23.ShowImage = True
+        Me.Button23.SuperTip = "段"
+        '
+        'Separator2
+        '
+        Me.Separator2.Name = "Separator2"
+        '
+        'Group4
+        '
+        Me.Group4.Items.Add(Me.Button5)
+        Me.Group4.Items.Add(Me.Button4)
+        Me.Group4.Items.Add(Me.SplitButton8)
+        Me.Group4.Items.Add(Me.Button12)
+        Me.Group4.Items.Add(Me.Button11)
+        Me.Group4.Label = "标注样式"
+        Me.Group4.Name = "Group4"
+        '
+        'Button5
+        '
+        Me.Button5.Image = CType(resources.GetObject("Button5.Image"), System.Drawing.Image)
+        Me.Button5.Label = "注"
+        Me.Button5.Name = "Button5"
+        Me.Button5.ShowImage = True
+        '
+        'Button4
+        '
+        Me.Button4.Image = CType(resources.GetObject("Button4.Image"), System.Drawing.Image)
+        Me.Button4.Label = "注X"
+        Me.Button4.Name = "Button4"
+        Me.Button4.ShowImage = True
+        '
+        'SplitButton8
+        '
+        Me.SplitButton8.Image = CType(resources.GetObject("SplitButton8.Image"), System.Drawing.Image)
+        Me.SplitButton8.Label = "脚注"
+        Me.SplitButton8.Name = "SplitButton8"
+        '
+        'Button12
+        '
+        Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
+        Me.Button12.Label = "示例"
+        Me.Button12.Name = "Button12"
+        Me.Button12.ShowImage = True
+        '
+        'Button11
+        '
+        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
+        Me.Button11.Label = "示例X"
+        Me.Button11.Name = "Button11"
+        Me.Button11.ShowImage = True
+        '
+        'Group5
+        '
+        Me.Group5.Items.Add(SplitButton7)
+        Me.Group5.Items.Add(Me.Button15)
+        Me.Group5.Items.Add(Me.Button14)
+        Me.Group5.Items.Add(Me.Separator3)
+        Me.Group5.Items.Add(Me.Button17)
+        Me.Group5.Items.Add(Me.Button18)
+        Me.Group5.Label = "图表"
+        Me.Group5.Name = "Group5"
+        '
         'Button15
         '
         Me.Button15.Image = CType(resources.GetObject("Button15.Image"), System.Drawing.Image)
@@ -637,6 +606,10 @@
         Me.Button14.Name = "Button14"
         Me.Button14.ShowImage = True
         '
+        'Separator3
+        '
+        Me.Separator3.Name = "Separator3"
+        '
         'Button17
         '
         Me.Button17.Image = CType(resources.GetObject("Button17.Image"), System.Drawing.Image)
@@ -650,6 +623,13 @@
         Me.Button18.Label = "图注"
         Me.Button18.Name = "Button18"
         Me.Button18.ShowImage = True
+        '
+        'Group6
+        '
+        Me.Group6.Items.Add(Me.SplitButton21)
+        Me.Group6.Items.Add(Me.SplitButton22)
+        Me.Group6.Label = "公式|单位|符号"
+        Me.Group6.Name = "Group6"
         '
         'SplitButton21
         '
@@ -705,6 +685,19 @@
         Me.Button75.Name = "Button75"
         Me.Button75.ShowImage = True
         '
+        'Group7
+        '
+        Me.Group7.Items.Add(Me.itemDescription)
+        Me.Group7.Items.Add(Me.connectLine)
+        Me.Group7.Items.Add(Me.quote)
+        Me.Group7.Items.Add(Me.Button6)
+        Me.Group7.Items.Add(Me.Button42)
+        Me.Group7.Items.Add(Me.Button31)
+        Me.Group7.Items.Add(Me.Button40)
+        Me.Group7.Items.Add(Me.Button41)
+        Me.Group7.Label = "其他"
+        Me.Group7.Name = "Group7"
+        '
         'itemDescription
         '
         Me.itemDescription.Label = "列项说明"
@@ -751,7 +744,6 @@
         Me.RibbonType = "Microsoft.Word.Document"
         Me.Tabs.Add(Me.Tab1)
         Me.Tabs.Add(Me.Tab2)
-        Me.Tabs.Add(Me.Tab3)
         Me.Tab1.ResumeLayout(False)
         Me.Tab1.PerformLayout()
         Me.Tab2.ResumeLayout(False)
@@ -772,8 +764,6 @@
         Me.Group6.PerformLayout()
         Me.Group7.ResumeLayout(False)
         Me.Group7.PerformLayout()
-        Me.Tab3.ResumeLayout(False)
-        Me.Tab3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -855,7 +845,6 @@
     Friend WithEvents Button43 As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents Button6 As Microsoft.Office.Tools.Ribbon.RibbonButton
     Friend WithEvents Button42 As Microsoft.Office.Tools.Ribbon.RibbonButton
-    Friend WithEvents Tab3 As Microsoft.Office.Tools.Ribbon.RibbonTab
 End Class
 
 Partial Class ThisRibbonCollection
